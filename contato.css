@@ -1,0 +1,124 @@
+/* Estilo para o cabeçalho */
+header {
+    text-align: center;
+    background-image: url('seu-fundo.jpg'); /* Define a imagem de fundo do cabeçalho */
+    background-color: #87CEEB;
+    background-size: cover; /* Controla o dimensionamento da imagem de fundo */
+    color: #4B0082; /* Define a cor do texto */
+    padding: 45px 0; /* Adiciona espaço interno ao cabeçalho */
+}
+
+header h1 {
+    font-size: 48px; /* Define o tamanho da fonte do título */
+    font-weight: bold; /* Define a espessura da fonte (negrito) */
+}
+
+header p {
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.3);
+    font-size: 24px; /* Define o tamanho da fonte do parágrafo */
+    color: #708090; /* Define a cor do texto do parágrafo */
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FF6F61;
+    border: 1px solid #000;
+    padding:6px;
+    border-radius:30%;
+}
+
+nav a:hover{
+    color: #800080;
+    transition: 0.5s;
+}
+
+/* Estilo para as imagens do portfólio */
+.portfolio-category img {
+    max-width: 100%; /* Controla a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 10px; /* Adiciona margem ao redor das imagens */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave quando o mouse passa sobre as imagens */
+}
+
+.portfolio-category img:hover {
+    transform: scale(1.1); /* Aplica um efeito de escala nas imagens quando o mouse passa sobre elas */
+}
+
+/* Estilo para a seção "Sobre o Fotógrafo" */
+section:nth-child(3) {
+    text-align: center;
+    background-color: #333; /* Define a cor de fundo da seção */
+    color: #fff; /* Define a cor do texto */
+    padding: 100px 0; /* Adiciona espaço interno à seção */
+}
+
+/* Estilo para depoimentos */
+blockquote {
+    margin: 20px; /* Adiciona margens ao redor dos depoimentos */
+    padding: 20px; /* Adiciona preenchimento interno aos depoimentos */
+    background-color: #fff; /* Define a cor de fundo dos depoimentos */
+    color: #333; /* Define a cor do texto nos depoimentos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave aos depoimentos */
+}
+
+/* Estilo para a seção "Chamada à Ação" (CTA) */
+section:nth-child(5) {
+    text-align: center;
+    background-color: #f4f4f4; /* Define a cor de fundo da seção */
+    padding: 100px 0; /* Adiciona espaço interno à seção */
+}
+
+/* Estilo para o botão de chamada à ação (CTA) */
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px; /* Adiciona preenchimento interno ao botão */
+    background-color: #ff6f61; /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto no botão */
+    font-size: 24px; /* Define o tamanho da fonte no botão */
+    text-decoration: none; /* Remove a decoração de sublinhado de links */
+    border-radius: 5px; /* Arredonda as bordas do botão */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave quando o mouse passa sobre o botão */
+}
+
+.cta-button:hover {
+    background-color: #ff422e; /* Define a cor de fundo quando o mouse passa sobre o botão */
+}
+
+/* Estilo para o formulário de contato */
+form {
+    max-width: 600px; /* Controla a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 35px; /* Adiciona margem inferior a elementos do formulário */
+    font-size: 15px; /* Define o tamanho da fonte */
+}
+
+/* Estilo para a seção "Informações de Contato" */
+section:nth-child(7) {
+    text-align: center;
+    background-color: #333; /* Define a cor de fundo da seção */
+    color: #fff; /* Define a cor do texto */
+    padding: 100px 0; /* Adiciona espaço interno à seção */
+}
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    background-color: #222; /* Define a cor de fundo do rodapé */
+    color: #fff; /* Define a cor do texto no rodapé */
+    padding: 20px 0; /* Adiciona espaço interno ao rodapé */
+}
